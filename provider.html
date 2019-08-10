@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/config/baseConfig.js"></script>
+    <script src="./assets/js/topProviders.js"></script>
+    <title>Provider</title>
+</head>
+<body>
+    <script>
+      let elem = localStorage.getItem("src");
+        let el = document.createElement("script");
+        el.setAttribute("src",elem);
+        document.body.appendChild(el);  
+    </script>
+</body>
+</html>
